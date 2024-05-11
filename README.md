@@ -7,6 +7,21 @@ This project is an alarming system built for LPC1768 using FreeRTOS and develope
 - Device actuation (to be handled by a resource manager task or in a distributed way).
 - User interface (console).
 
+## Requirements
+
+- LPC1768 microcontroller
+- FreeRTOS
+- KeilStudioCloud IDE
+
+## Installation and Usage
+
+1. Clone this repository to your local machine.
+2. Open the project in KeilStudioCloud IDE.
+3. Build and flash the project to your LPC1768 microcontroller.
+4. Connect to the microcontroller using a terminal emulator.
+5. Use the provided command line functionalities to interact with the alarming system.
+
+
 ## Connecting to the board
 You are free to use any terminal emulator of your choice. Despite that, here are some steps in order to connect to the board using Putty:
 1. Select the device `Serial line` (on linux it is usually /dev/ttyACM0)
@@ -36,17 +51,3 @@ You are free to use any terminal emulator of your choice. Despite that, here are
 ### FreeRTOS Documentation
 
 For any information regarding FreeRTOS, please refer to their documentation: [FreeRTOS Documentation](https://www.freertos.org/)
-
-## Requirements
-
-- LPC1768 microcontroller
-- FreeRTOS
-- KeilStudioCloud IDE
-
-## Installation and Usage
-
-1. Clone this repository to your local machine.
-2. Open the project in KeilStudioCloud IDE.
-3. Build and flash the project to your LPC1768 microcontroller.
-4. Connect to the microcontroller using a terminal emulator.
-5. Use the provided command line functionalities to interact with the alarming system.
